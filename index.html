@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site restaurante chines</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">   
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2? display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2? display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+            <nav id="header-nav" class="navbar navbar-expand-lg bg-#f6b319"> <!--essa classe pertence ao bootstrap, eh um padrao de barra de navegação, temos ai uma classe basse e uma sub classe na sequencia-->
+                <div class="container" id="nav-container">
+                <div class="navbar-brand">
+                    <a href="index.html" class="float-start d-none d-sm-none d-md-block d-xl-block "> <!--escondemos o logo para telas pequenas-->
+                        <div id="logo-img" alt="Logo image"></div>
+                    </a>
+                    <div>
+                        <a class="sembarralink" href="index.html"><h1>David chu's China Bistro</h1></a>
+                        <p>Kosher Certified &copy;</p>
+                    </div>
+                </div>
+                </div>
+                </div>
+                <button id="" class="navbar-toggler hamburguer" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="true" aria-label="Alterna navegação">
+                    <span  class="navbar-toggler-icon">b</span>
+                </button> <!--Butao -->
+                <!--Nav list-->
+                <div class="collapse navbar-collapse justify-content-end" id="conteudoNavbarSuportado">
+                    <ul id="nav-list2" class="navbar-nav mr-auto">
+                        <li class="nav-item active"><a class="nav-link" href="menu-categories.html">
+                            <span class="glyphicon glyphicon-certificate"></span>Menu</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="#">About</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="#menu">Awards</a></li>
+                        <li id="phone" class="nav-item active"><a class="nav-link" href="tel:410-602-5008"><span>410-602-5008</span></a>
+                        <div>*We Deliver</div>
+                        </li>
+                    </ul>
+                </div>
+        </nav>  
+    </header>
+    <!--Jumbotron-->
+        <div id="main-content" class="container">
+            <div class="jumbotron">
+                <img src="../sitechines/bar-y-salon.jpg" alt="Foto do restaurante" class="img-fluid">
+                <!--Para mudar o enquandamento da imgame deve adcionar um width de 100%-->
+            </div>
+        </div>
+    <!--Navegation tiles-->
+    <div id="home-tiles" class="flex-container">
+        <div id="menu" class="tiles">
+            <a href="menu-categories.html" ><div id="menu-title"><span>menu</span></div></a>
+        </div>
+        <div id="specials" class="tiles">
+            <a href="single-category.html" ><div id="special-title"><span>specials</span></div></a>
+        </div>
+        <div id="map" class="tiles">
+        <a href="https://goo.gl/maps/ZMvNRFU7KYem4w2R8" target="_blank" ><div id="map-title">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3084.6750632361104!2d-76.7138821493507!3d39.36359442683395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c81a14e7817803%3A0xab20a0e99daa17ea!2sDavid%20Chu&#39;s%20China%20Bistro!5e0!3m2!1spt-BR!2sbr!4v1618192819622!5m2!1spt-BR!2sbr" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <span>map</span></div></a>
+        </div>  <!--Fim do titles-->
+    </div>
+    <!---Fim do home titles-->
+    <footer class="panel-footer">
+        <div class="flex-container">
+            <div class="rodapé">
+                <section id="horas">
+                    <span>Horário de funcionamento:</span><br>Dom-qui: 11:15am- 10pm<br>Sex:1:15- 2:30pm<br>Sabados fechados
+                    <hr>
+                </section>
+            </div>
+            <div class="rodapé">
+                <section id="endereço">
+                    <span>Endereço:</span><br>7105 Reiterstown Road<br>Baltimore<br><p>*área de entrega dentro de 10km </p>
+                    <hr>
+                </section>
+            </div>
+            <div class="rodapé">
+                <section id="avaliações">
+                    <p>"O melhor restaurante de comida chinesa da região" </p>
+                    <p>"Comida deliciosa, otimo serviço!"</p>
+                    <hr>
+                </section>
+            </div>
+        </div>
+        <div class="text-center">&copy; Copyrigth David Chu's China Bistro 2020</div>
+    
+    </footer>
+    
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>

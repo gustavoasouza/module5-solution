@@ -1,0 +1,199 @@
+@charset "UTF-8";
+body{
+    font-size: 16px;
+    color: #fff;
+    background-color: #61122f;
+    font-family: 'Oxigênio', sans-serif;
+    
+
+}
+#header-nav{
+    background-color: #f6b319;
+    border-radius: 0;
+    border: 0;
+}
+/* Cabeçalho esquerda:logo*/
+#logo-img{
+    background: url('lantern-iconmenor\ \(1\).png') no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 10px 15px 10px 0;
+    float:left
+}
+.sembarralink{
+    text-decoration: none;
+}
+.navbar-brand{
+    padding-top: 20px;
+}
+/* Cabeçalho esquerda:Nome do restaurante*/
+.navbar-brand h1{ /* restaurant name*/
+    font-family:'Lora', serif ;
+    color: #557c3e;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+    
+}
+.navbar-brand  a:hover, .navbar-brand a:focus{
+    text-decoration: none;
+}
+/* para tirar decoraçao do link*/
+
+.navbar-brand p{/* Kosher cert*/
+    color: #000;
+    text-transform: uppercase;
+    font-size: .7em;
+    margin-top: 15px;
+}
+.navbar-brand p span{/* Star-k*/
+    vertical-align:middle
+}
+#nav-container{
+    margin-right: 0px;
+    width:900px;
+}
+#butao{
+   border: 1px solid black !important;
+}
+
+#nav-list2{
+    margin-top: 10px;
+}
+#nav-list2 a{
+    color: #951c49;
+    text-decoration: none;
+}
+#nav-list2 a:hover{
+    background: #E7E7E7;
+}
+#nav-list a span{
+    font-size: 1em;
+}
+#phone a{
+   font-size: 20px;
+   padding-bottom: 0px;
+}
+#phone div{
+    color: #557c3e;
+    padding-right: 15px;
+}
+.hamburguer{
+    border: 1px solid #61122f;
+}
+.hamburguer :hover{
+    background-color: #E7E7E7;
+}
+/*FIM DO NAVBAR*/
+
+/* HOME PAGE*/
+
+/*container imagem*/
+.jumbotron{
+    padding: 0px;
+    box-shadow: 0 0 50px #370c1f;
+    border: 2px solid #370c1f ;
+}
+/*imagem do restaurante dentro do container*/
+.img-fluid{
+    width: 100%;
+}
+/*container que comporta a imagem*/
+.container{
+    margin-top: 32px;
+}
+/*Menu titles*/
+.flex-container{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-content: center;
+    margin: 0;
+    align-items: center;
+} /* Utilizamos a mesma classe para o rodape*/
+.tiles{ 
+    height: 250px;
+    width:100%;
+    margin: 10px;
+    flex: 1 0 30.33%;
+    border: 2px solid #370c1f;
+    overflow: hidden;
+    position: relative;
+   
+}
+#home-tiles :hover{
+    box-shadow: 0 1px 5px 1px #cccccc;
+    cursor: pointer;
+}
+#menu{
+    background: url('comida-china-e1428440826230-1.jpg') no-repeat;
+    background-position: center;
+}
+#specials{
+    background: url('specials.jpg') no-repeat;
+    background-position: center;
+}
+#map{
+    background: url('');
+    background-position: center;
+}
+#menu span, #specials span,#map span{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: .8;
+}
+/*RODAPE*/
+.panel-footer{
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: #222;
+    border-top: 0;
+}
+.panel-footer section{
+    margin-bottom: 30px;
+}
+.panel-footer section:nth-child(3){
+    margin-bottom: 0;
+}
+.panel-footer section hr{
+    width: 50%;
+}
+.rodapé{
+    margin: 10px;
+    flex: 1 0 30.33%;
+    
+}
+#horas, #endereço{
+    line-height: 2;
+}
+#horas > span, #endereço > span{
+    font-size: 1.3em;
+}
+#endereço p{
+    color: #557c3e;
+    font-size: .8em;
+    line-height: 1.8;
+}
+#avaliações{
+    font-style: italic;
+}
+#avaliações p:nth-child(2){
+    margin-top: 25px;
+}
+/*copyrigth do restaurante*/
+.text-center{
+    text-align: center;
+}
